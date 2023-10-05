@@ -24,8 +24,12 @@ h1 { font-family: 'Unbounded', sans-serif;
 }
 
 .contenedor{
-    display: flex;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    
+    
 }
 
 section{
@@ -49,6 +53,7 @@ aside{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #161515;
+
 }
 
 
@@ -66,13 +71,12 @@ aside{
     
 }
 
-
 .sub2 {
     color: #FFC857;
     font-family: 'Unbounded', sans-serif;    
     text-decoration:underline;
     font-size: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 .sub3 {
@@ -81,6 +85,18 @@ aside{
     text-decoration: underline;
     font-size: 16px;
     font-weight: bold;
+    text-align: justify;
+}
+
+ul li{
+    list-style:inside;
+    text-align: justify;
+    
+}
+ol li{
+    list-style:inside;
+    text-align: justify;
+    
 }
 
 .text {
@@ -127,6 +143,7 @@ nav{
     justify-content: space-around;
 }
 
+
 .linknav {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -169,11 +186,19 @@ footer{
 
 }
 
+a:link{
+    color: #fff;
+}
 
+a:visited{
+    color:#f380e4
+}
 
-
-
-
+a:hover{
+    color: black;
+    background-color: white;
+    
+}
 
 
 
