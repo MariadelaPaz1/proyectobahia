@@ -200,6 +200,27 @@ a:hover{
     
 }
 
+@media (max-width: 500px){
+    .video{
+        display: none;
+    }
+}
 
+@media (min-width: 767px){
+    .botonwsp{
+        display: none;
+        
+    }
+}
 
+@media (min-width: 1199px){
+    .subsecreto{
 
+        display: none;
+    }
+}
+@media (max-width: 1199px){
+    .subsecreto{
+        color: red;
+    }
+}
