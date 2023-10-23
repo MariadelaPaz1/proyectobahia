@@ -190,10 +190,6 @@ a:link{
     color: #fff;
 }
 
-a:visited{
-    color:#f380e4
-}
-
 a:hover{
     color: black;
     background-color: white;
@@ -206,7 +202,7 @@ a:hover{
     }
 }
 
-@media (min-width: 767px){
+@media (max-width: 767px){
     .botonwsp{
         display: none;
         
@@ -223,4 +219,10 @@ a:hover{
     .subsecreto{
         color: red;
     }
+}
+
+.contenedorboot{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
 }
