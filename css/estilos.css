@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
-body{ background-image: url(../imagenes/10683-flores-vintage.jpg);
+body{ /*background-image: url(../imagenes/10683-flores-vintage.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

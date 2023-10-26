@@ -1,3 +1,7 @@
 
-function cambiarfondo() {
-   document.body.style.backgroundColor="red";}
+function cambiarfondo1() {
+   document.body.style.backgroundColor="white";}
+
+function cambiarfondo2() {
+      document.body.style.backgroundColor="black";}
+
